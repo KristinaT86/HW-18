@@ -1,0 +1,177 @@
+.contactsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+}
+
+.contactsContainer{
+ display: flex;
+flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-color: pink;
+ border-radius: 8px;
+}
+
+.contactsContainer:hover{
+    background-color: rgb(237, 230, 231);
+}
+
+
+.contactInfo {
+    margin-bottom: 40px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.contactInfo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+   
+}
+h1 {
+color: #007bff;
+}
+
+.contactInfo ul {
+    
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.contactInfo li {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.inputField {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    
+}
+.inputText{
+    margin-top: 10px;
+    width: 350px;
+    
+}
+
+.submitButton {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+.socialLinks {
+    margin-top: 20px;
+}
+
+.socialLinks p {
+    margin-bottom: 10px;
+}
+
+/* .socialIcon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+} */
+
+.socialIconFace {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.socialIconFace:hover{
+    background-color: rgb(44, 245, 245);
+    border-radius: 10px;
+    border: solid 5px;
+}
+
+.socialIconX{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.socialIconX:hover{
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: solid 5px;
+}
+
+
+.socialIconSnap{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    /* border: 5px solid transparent; */
+    transition: border-color 0.4s ease;
+    
+    
+}
+.socialIconSnap:hover{
+    background-color: rgb(249, 253, 17);
+    border-radius: 8px;
+    border: 5px solid;
+   
+    
+}
+.socialIcon:hover{
+background-color: rgb(31, 148, 244);
+
+}
+
+.socialIconQr{
+    margin-top: 100px;
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.socialIconQr:hover{
+    background-color: rgb(170, 250, 250);
+    border-radius: 10px;
+    /* border: solid 5px; */
+}
+
+.socialMediaContainer{
+align-items: center;
+text-align: center;
+background-color: #6ca9eb7a;
+width: 500px;
+height: 500px;
+border-radius:  8px;
+}
+p { padding: 10px;
+    font-size: 20px;
+}
+
+.socialMediaContainer:hover{
+background-color: rgba(162, 243, 80, 0.664);
+}
